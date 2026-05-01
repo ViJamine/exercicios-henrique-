@@ -1,0 +1,10 @@
+function contarVogais(str) {
+  let vogais = "aeiouAEIOU";
+  let contador = 0;
+
+  for (let letra of str) {
+    if (vogais.includes(letra)) contador++;
+  }
+
+  return contador;
+}
