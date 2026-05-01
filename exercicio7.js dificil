@@ -1,0 +1,5 @@
+function ehPalindromo(str) {
+  let limpa = str.toLowerCase().replace(/\s/g, "");
+  let invertida = limpa.split("").reverse().join("");
+  return limpa === invertida;
+}
